@@ -20,9 +20,10 @@ class String
       sentence.split("!").each do |sent|
         sent.split("?").each do |frag|
             how_many << frag
-     end
+          end
       end
     end
+    
     how_many.count do |sentence|
       sentence.length < 2
     end
