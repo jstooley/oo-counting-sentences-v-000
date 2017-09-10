@@ -16,8 +16,8 @@ class String
 
   def count_sentences
     how_many = []
-    self.split(.,?).each do |sentence|
-      sentence.split(!).each do |sent|
+    self.split(".").each do |sentence|
+      sentence.split("!").each do |sent|
        how_many << sent
       end
     end
