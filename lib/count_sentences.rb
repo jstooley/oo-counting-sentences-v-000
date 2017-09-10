@@ -26,7 +26,7 @@ class String
           end
       end
     end
-  
+
     how_many.count do |sentence|
       sentence.length > 2
     end
