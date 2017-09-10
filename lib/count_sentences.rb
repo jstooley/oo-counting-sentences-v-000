@@ -21,6 +21,6 @@ class String
         how_many << sent
        end
      end
-     how_many
+     how_many.length
   end
 end
