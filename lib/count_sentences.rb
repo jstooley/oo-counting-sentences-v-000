@@ -18,7 +18,9 @@ class String
     how_many = []
     self.split(".").each do |sentence|
       sentence.split("!").each do |sent|
+        sent.split("?")
        how_many << sent
+     end
       end
     end
     how_many.count do |sentence|
