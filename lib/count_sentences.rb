@@ -18,7 +18,7 @@ class String
     how_many = []
      self.split(".","?").each do |sentence|
        sentence.split("!").each do |sent|
-         
+        how_many << sent
        end
      end
      para_array.delete_if do |sentence|
