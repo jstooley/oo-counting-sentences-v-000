@@ -22,11 +22,11 @@ class String
         sent_2.split("?").each do |sent_3|
 
             how_many << sent_3
-            binding.pry
+  
           end
       end
     end
-
+    binding.pry
     how_many.count do |sentence|
       sentence.length < 2
     end
