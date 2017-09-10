@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    self.split(".","?","!")
+     para_array = self.split(".","?","!")
   end
 end
