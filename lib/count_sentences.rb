@@ -17,12 +17,13 @@ class String
   def count_sentences
     how_many = []
 
-    self.split(".").each do |sentence|
-      sentence.split("!").each do |sent|
-        sent.split("?")
+    self.split(".").each do |sent_1|
+      sent_1.split("!").each do |sent_2|
+        sent_2.split("?").each do |sent_3|
 
-            how_many << sent
-
+            how_many << sent_3
+            
+          end
       end
     end
 
