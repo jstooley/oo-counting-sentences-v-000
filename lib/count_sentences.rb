@@ -24,6 +24,6 @@ class String
     how_many.count do |sentence|
       sentence.length < 2
     end
-    
+
   end
 end
