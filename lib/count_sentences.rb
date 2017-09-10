@@ -16,11 +16,12 @@ class String
 
   def count_sentences
     how_many = []
-    self.split(".").each do |sentence|
+    
+    self.split(".", "?").each do |sentence|
       sentence.split("!").each do |sent|
-        sent.split("?").each do |frag|
-            how_many << frag
-          end
+        
+            how_many << sent
+          
       end
     end
     
