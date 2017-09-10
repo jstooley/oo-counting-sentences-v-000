@@ -19,5 +19,6 @@ class String
      para_array.delete_if do |sentence|
        sentence.length < 2 
      end
+     para_array.length
   end
 end
