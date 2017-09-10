@@ -15,9 +15,11 @@ class String
   end
 
   def count_sentences
-
+    how_many = []
      self.split(".","?").each do |sentence|
-       sentence.split("!")
+       sentence.split("!").each do |sent|
+         
+       end
      end
      para_array.delete_if do |sentence|
        sentence.length < 2
