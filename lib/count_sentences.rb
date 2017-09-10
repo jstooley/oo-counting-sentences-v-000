@@ -21,9 +21,9 @@ class String
        how_many << sent
       end
     end
-    how_many.delete do |sentence|
+    how_many.count do |sentence|
       sentence.length < 2
     end
-    how_many.length
+    
   end
 end
