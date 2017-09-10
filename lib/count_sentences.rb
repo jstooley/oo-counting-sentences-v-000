@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-     
+
      para_array = [self.split(".","?")]
      para_array.delete_if do |sentence|
        sentence.length < 2
