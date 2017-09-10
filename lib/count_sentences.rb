@@ -26,9 +26,9 @@ class String
           end
       end
     end
-    binding.pry
+  
     how_many.count do |sentence|
-      sentence.length < 2
+      sentence.length > 2
     end
 
   end
